@@ -5,20 +5,20 @@ const HackathonsSection = () => {
   const hackathons = [
     {
       id: 1,
-      name: "SIH'24",
-      details: [
-        "Finalist of Smart India Hackathon 2024",
-        "Held at Chennai",
-        "Worked on PostVisionAI"
-      ]
-    },
-    {
-      id: 2,
       name: "Codenovate'24",
       details: [
         "Participant in Codenovate 2024",
         "Held at Keshav Memorial Institute of Technology",
         "Worked on CrowdVisionAI"
+      ]
+    },
+    {
+      id: 2,
+      name: "SIH'24",
+      details: [
+        "Finalist of Smart India Hackathon 2024",
+        "Held at Chennai",
+        "Worked on PostVisionAI"
       ]
     },
     {
