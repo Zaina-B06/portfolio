@@ -18,7 +18,7 @@ const ContactSection = () => {
     {
       id: 3,
       name: "Email",
-      url: "mailto:contact@zainabilquis.com",
+      url: "mailto:zainabilquis06@gmail.com",
       icon: <FaEnvelope className="text-2xl" />
     }
   ];

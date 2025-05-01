@@ -8,19 +8,19 @@ const TechStackSection = () => {
     {
       name: "Java",
       level: "Beginner",
-      progress: 30,
+      progress: 20,
       icon: <FaJava className="text-5xl text-primary-text" />
     },
     {
       name: "C",
       level: "Intermediate",
-      progress: 60,
+      progress: 45,
       icon: <SiC className="text-5xl text-primary-text" />
     },
     {
       name: "Python",
       level: "Upper Intermediate",
-      progress: 80,
+      progress: 65,
       icon: <FaPython className="text-5xl text-primary-text" />
     }
   ];
