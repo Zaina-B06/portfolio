@@ -46,11 +46,11 @@ const NavBar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary-bg bg-opacity-95 shadow-md">
       <nav className="container mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
-          <div className="text-primary-text text-xl font-bold font-heading">ZB</div>
+        <div className="flex justify-between items-center gap-12">
+          <div className="text-primary-text text-3xl font-bold font-heading">ZB</div>
           
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-10">
             {navLinks.map((link) => (
               <a 
                 key={link.href}
