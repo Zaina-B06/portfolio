@@ -46,16 +46,16 @@ const NavBar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary-bg bg-opacity-95 shadow-md">
       <nav className="container mx-auto px-6 py-4">
-        <div className="flex justify-between items-center gap-12">
+        <div className="flex justify-between items-center gap-6">
           <div className="text-primary-text text-3xl font-bold font-heading">ZB</div>
           
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-10">
+          <div className="hidden md:flex space-x-4">
             {navLinks.map((link) => (
               <a 
                 key={link.href}
                 href={link.href}
-                className={`nav-link text-primary-text hover:text-highlight transition-colors duration-300 ${
+                className={`nav-link text-primary-text text-sm hover:text-highlight transition-colors duration-300 ${
                   activeSection === link.href.substring(1) ? "active" : ""
                 }`}
               >
