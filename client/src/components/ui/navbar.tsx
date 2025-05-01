@@ -16,8 +16,9 @@ const NavBar = () => {
       const scrollPosition = window.scrollY;
       
       sections.forEach((section) => {
-        const sectionTop = section.offsetTop - 100;
-        const sectionHeight = section.offsetHeight;
+        const htmlSection = section as HTMLElement;
+        const sectionTop = htmlSection.offsetTop - 100;
+        const sectionHeight = htmlSection.offsetHeight;
         const sectionId = section.getAttribute("id");
         
         if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
@@ -38,6 +39,7 @@ const NavBar = () => {
     { href: "#tech-stack", label: "Tech Stack" },
     { href: "#projects", label: "Projects" },
     { href: "#hackathons", label: "Hackathons" },
+    { href: "#experience", label: "Experience" },
     { href: "#contact", label: "Contact Me" }
   ];
 
