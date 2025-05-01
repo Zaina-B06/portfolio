@@ -7,30 +7,30 @@ const ProjectsSection = () => {
     {
       id: 1,
       name: "PostVisionAI",
-      description: "An AI-powered solution developed for Smart India Hackathon 2024 that enhances postal services through computer vision.",
+      description: "AI-Based Post Office Counter Monitoring System: An AI-powered web application for the Department of Posts (DoP) to reduce customer wait times and service inefficiencies across 165,000+ post offices.",
       icon: <FaGlobe className="text-4xl text-primary-text" />,
-      tags: ["AI", "Computer Vision"]
+      tags: ["Python", "OpenCV", "YOLO", "Flask", "MySQL"]
     },
     {
       id: 2,
       name: "CrowdVisionAI",
-      description: "A crowd management system using AI to analyze crowd densities and predict potential safety concerns.",
+      description: "AI-Powered Queue Management System: An AI-driven web app that optimizes queue management in high-traffic environments like hospitals and transport hubs using image processing and predictive analytics.",
       icon: <FaUsers className="text-4xl text-primary-text" />,
-      tags: ["AI", "Python", "Computer Vision"]
+      tags: ["YOLO", "Python", "Flask", "OpenCV"]
     },
     {
       id: 3,
       name: "SkinSight",
-      description: "An award-winning medical tool that helps detect skin conditions using machine learning algorithms.",
+      description: "AI-Powered Skincare Platform: An intelligent skincare solution addressing common skin concerns like acne, dermatitis, and allergies using AI for skin analysis, routine generation, and personalized care.",
       icon: <FaHeartbeat className="text-4xl text-primary-text" />,
-      tags: ["Healthcare", "Machine Learning"]
+      tags: ["Python", "OpenCV", "TensorFlow", "Flask"]
     },
     {
       id: 4,
-      name: "Kanoon-Sathi",
-      description: "A legal assistance platform developed for Google Solutions Challenge that makes legal information accessible to everyone.",
+      name: "Kanoon Sathi",
+      description: "AI Lawtech Suite: A suite of AI tools improving legal access, speeding up bail processes, automating legal research, and prioritizing public-interest cases to reduce backlog and empower citizens.",
       icon: <FaBalanceScale className="text-4xl text-primary-text" />,
-      tags: ["Legal Tech", "Web App"]
+      tags: ["Python", "NLP", "Flask", "Transformers"]
     }
   ];
 
