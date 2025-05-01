@@ -6,22 +6,38 @@ const HackathonsSection = () => {
     {
       id: 1,
       name: "SIH'24",
-      description: "Finalist of the Smart India Hackathon 2024 held in Chennai, where I worked on PostVisionAI"
+      details: [
+        "Finalist of Smart India Hackathon 2024",
+        "Held at Chennai",
+        "Worked on PostVisionAI"
+      ]
     },
     {
       id: 2,
       name: "Codenovate'24",
-      description: "Held at Keshav Memorial Institute of Technology, worked on CrowdVisionAI"
+      details: [
+        "Participant in Codenovate 2024",
+        "Held at Keshav Memorial Institute of Technology",
+        "Worked on CrowdVisionAI"
+      ]
     },
     {
       id: 3,
       name: "Hack Revolution'24",
-      description: "Held at Muffakham Jah College of Engineering and Technology, Won 3rd place in Medical Field, worked on SkinSight"
+      details: [
+        "Won 3rd place in Medical Field",
+        "Held at Muffakham Jah College of Engineering and Technology",
+        "Worked on SkinSight"
+      ]
     },
     {
       id: 4,
       name: "Google Solutions Challenge'24",
-      description: "Held online, worked on Kanoon Sathi"
+      details: [
+        "Participant in Google Solutions Challenge 2024",
+        "Held online",
+        "Worked on Kanoon Sathi"
+      ]
     }
   ];
 
@@ -49,7 +65,7 @@ const HackathonsSection = () => {
             >
               <HackathonCard 
                 name={hackathon.name} 
-                description={hackathon.description} 
+                details={hackathon.details} 
               />
             </motion.div>
           ))}
