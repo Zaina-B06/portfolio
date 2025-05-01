@@ -13,14 +13,14 @@ const TechStackSection = () => {
     },
     {
       name: "C",
-      level: "Intermediate",
-      progress: 45,
+      level: "Beginner",
+      progress: 25,
       icon: <SiC className="text-5xl text-primary-text" />
     },
     {
       name: "Python",
-      level: "Upper Intermediate",
-      progress: 65,
+      level: "Intermediate",
+      progress: 45,
       icon: <FaPython className="text-5xl text-primary-text" />
     }
   ];
